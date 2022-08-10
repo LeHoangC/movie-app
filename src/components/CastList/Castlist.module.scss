@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+
+    h2 {
+        padding: 24px 40px;
+        color: #fff;
+    }
+    .list-cast {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .cast {
+            width: 16%;
+            padding: 0 8px;
+            img {
+                border-radius: 12px;
+            }
+            span {
+                color: #00d484;
+                display: inline-block;
+                padding: 8px 0;
+            }
+        }
+    }
+}

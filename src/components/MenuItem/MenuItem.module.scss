@@ -1,0 +1,17 @@
+.title {
+    margin: 0 12px;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: border 0.3s ease;
+
+    &:hover {
+        border-bottom: 3px solid #00d474;
+    }
+}
+
+.active .title {
+    border-bottom: 3px solid #00d474;
+}

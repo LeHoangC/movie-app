@@ -1,0 +1,39 @@
+.wrapper {
+    font-size: 18px;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    max-width: 160px;
+
+    + .wrapper {
+        margin-left: 20px;
+    }
+}
+
+.primary {
+    color: #fff;
+    background-color: #00d474;
+    box-shadow: 2px 1px 10px #00d474;
+}
+
+.outline {
+    color: #00d474;
+    border-color: #00d474;
+    &:hover {
+        color: #fff;
+        background-color: #00d474;
+        box-shadow: 2px 1px 10px #00d474;
+    }
+}
+
+.small {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-width: 1px;
+    font-weight: 400;
+    max-width: 160px;
+}

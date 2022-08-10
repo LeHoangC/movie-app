@@ -1,0 +1,87 @@
+.wrapper {
+    height: 100vh;
+
+    margin: 0 auto;
+    .banner {
+        padding-top: 50%;
+        margin-top: -60px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(64, 64, 64));
+        }
+
+        &_content {
+            width: 100%;
+            max-width: 1200px;
+
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            .poster {
+                flex: 1;
+
+                img {
+                    border-radius: 20px;
+                    max-width: 80%;
+                }
+            }
+            .info {
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                .name {
+                    font-size: 32px;
+                    padding: 20px 0;
+                    letter-spacing: 2px;
+                    color: #fff;
+                }
+                .desc {
+                    color: #fff;
+                    padding: 28px 0;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                }
+                .date {
+                    display: block;
+                    color: #fff;
+                }
+                .genre {
+                    padding: 8px 12px;
+                    margin-top: 20px;
+                    margin-right: 16px;
+                    letter-spacing: 1px;
+                    color: #fff;
+                    border: 1px solid #fff;
+                    border-radius: 20px;
+                    display: inline-block;
+                    cursor: pointer;
+                    &:hover {
+                        color: #00d474;
+                        border: 1px solid #00d474;
+                    }
+                }
+
+                .btn {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .content {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

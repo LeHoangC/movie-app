@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 40px 0;
+    h2 {
+        padding: 12px 0;
+        font-size: 28px;
+        font-weight: 400;
+        color: #00d474;
+    }
+
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

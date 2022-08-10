@@ -1,0 +1,31 @@
+.search {
+    flex: 2;
+    .content {
+        max-width: 60%;
+        position: relative;
+    }
+    &-input {
+        font-size: 16px;
+        padding: 8px 16px;
+        padding-right: 60px;
+        border-radius: 20px;
+        caret-color: #00d484;
+        color: #fff;
+        border: 2px solid #00d484;
+        background-color: transparent;
+        width: 100%;
+        &::placeholder {
+            color: #00d484;
+            letter-spacing: 1px;
+        }
+    }
+    .icon {
+        color: #fff;
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 4px;
+        cursor: pointer;
+    }
+}

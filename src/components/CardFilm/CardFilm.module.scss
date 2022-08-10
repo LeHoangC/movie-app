@@ -1,0 +1,29 @@
+.wrapper {
+    position: relative;
+    .image {
+        overflow: hidden;
+        border-radius: 12px;
+        border: 1px solid #00d474;
+    }
+    h4 {
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 12px 8px 0;
+    }
+    .vote {
+        font-size: 14px;
+        padding: 8px 20px;
+        min-width: 60px;
+        color: #000;
+        border-radius: 20px;
+        display: inline-block;
+        text-align: center;
+        background-color: #00d474;
+        position: absolute;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 2px 2px 10px #00d474;
+    }
+}
