@@ -48,7 +48,11 @@ function HeroSlide() {
                                     <div className={cx('content')}>
                                         <div className={cx('slide-detail-content')}>
                                             <h2>{item.title}</h2>
-                                            <p>{item.overview}</p>
+                                            {item.overview.length > 200 ? (
+                                                <p>{item.overview.slice(0, 200) + '...'}</p>
+                                            ) : (
+                                                <p>{item.overview}</p>
+                                            )}
                                         </div>
                                         <div className={cx('slide-detail-btn')}>
                                             <Button primary to={`/movie/${item.id}`}>

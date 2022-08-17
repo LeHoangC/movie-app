@@ -4,3 +4,9 @@
     padding: 40px;
     user-select: none;
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+        padding: 40px 12px;
+    }
+}

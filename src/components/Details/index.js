@@ -17,7 +17,9 @@ function Details() {
     useEffect(() => {
         const getDetails = async () => {
             const response = await tmdbApi.details(category, id, { params: {} })
+            document.title = response.title || response.name
             setItem(response)
+
             setGenres([...response.genres])
             window.scrollTo(0, 0)
         }
@@ -55,7 +57,7 @@ function Details() {
                                 <Button primary small to={`/${category}/watch/${item.id}`}>
                                     Watch now
                                 </Button>
-                                <Button outline small href={'#trailer'}>
+                                <Button outline small href={'#trailer'} none>
                                     Watch Trailer
                                 </Button>
                             </div>

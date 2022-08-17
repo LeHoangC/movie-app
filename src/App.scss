@@ -15,6 +15,18 @@ html .swiper-slide {
     width: 15%;
 }
 
+@media (max-width: 768px) {
+    html .swiper-slide {
+        width: 24%;
+    }
+}
+
+@media (max-width: 576px) {
+    html .swiper-slide {
+        width: 40%;
+    }
+}
+
 body {
     background-color: black;
 }

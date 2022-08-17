@@ -3,7 +3,7 @@
 
     margin: 0 auto;
     .banner {
-        padding-top: 50%;
+        padding-top: 55%;
         margin-top: -60px;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -15,7 +15,7 @@
             left: 0;
             bottom: 0;
             right: 0;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(64, 64, 64));
+            // background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(64, 64, 64));
         }
 
         &_content {
@@ -30,6 +30,7 @@
             transform: translateX(-50%);
             .poster {
                 flex: 1;
+                margin-left: 20px;
 
                 img {
                     border-radius: 20px;
@@ -82,6 +83,52 @@
     .content {
         width: 100%;
         max-width: 1200px;
+        padding: 0 20px;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        .banner {
+            padding-top: 50%;
+            .info {
+                .desc {
+                    font-size: 12px;
+                    padding: 12px;
+                }
+                .date {
+                    font-size: 12px;
+                }
+                .genre {
+                    padding: 4px 8px;
+                    margin-top: 12px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        .banner {
+            padding-top: 80%;
+            .info {
+                margin-top: 20px;
+                .name {
+                    font-size: 16px;
+                }
+                .desc {
+                    display: none;
+                }
+                .date {
+                    font-size: 12px;
+                }
+                .genre {
+                    display: none;
+                }
+            }
+        }
     }
 }

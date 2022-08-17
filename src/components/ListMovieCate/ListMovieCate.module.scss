@@ -13,3 +13,14 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+        padding: 0 10px 40px;
+        .list-item {
+            div {
+                width: 148px;
+            }
+        }
+    }
+}

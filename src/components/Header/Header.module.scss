@@ -24,3 +24,23 @@
         flex: 2;
     }
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+        justify-content: space-between;
+        .logo {
+            flex: 1;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .wrapper {
+        flex-direction: column;
+        .logo {
+            display: none;
+        }
+        .header-nav {
+            padding: 12px 0;
+        }
+    }
+}

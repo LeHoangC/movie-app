@@ -10,3 +10,14 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+        .title {
+            h2 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -15,3 +15,9 @@
 .active .title {
     border-bottom: 3px solid #00d474;
 }
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: 16px;
+    }
+}

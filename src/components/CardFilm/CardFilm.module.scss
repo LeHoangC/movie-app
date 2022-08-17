@@ -27,3 +27,16 @@
         box-shadow: 2px 2px 10px #00d474;
     }
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+        h4 {
+            font-size: 12px;
+            padding: 8px 4px 0;
+        }
+        .vote {
+            font-size: 12px;
+            padding: 4px 8px;
+        }
+    }
+}

@@ -37,3 +37,13 @@
     font-weight: 400;
     max-width: 160px;
 }
+
+@media (max-width: 576px) {
+    .small {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+    .none {
+        display: none;
+    }
+}
