@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## Link deploy: https://lhc-movie-not-responsive.netlify.app  (web chưa responsive)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
